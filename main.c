@@ -22,7 +22,7 @@ int main(void) {
     }
   }else { // Processo Pai
     wait(NULL); // Processo Pai vai esperar o fim do Processo Filho
-    printf("Deu certo :)");
+    printf("Processo Executado");
   }
   
   return 0;
